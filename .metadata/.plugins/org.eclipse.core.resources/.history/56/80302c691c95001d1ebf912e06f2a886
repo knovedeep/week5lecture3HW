@@ -1,0 +1,14 @@
+
+public class NamingConventions {
+
+	public static void main(String[] args) {
+		int currentScoreOfGame= notanumber;
+		boolean answer=;
+		System.out.println(answer);
+		boolean answer2= notaBooleanValue;
+		String value1="a string";
+		byte bigvalue=168;
+
+	}
+
+}

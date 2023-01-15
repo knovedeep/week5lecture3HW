@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class JavaTypes {
+
+	public static void main(String[] args) {
+		Scanner userInput = new Scanner(System.in);
+		
+		System.out.println("Player 1: Pick a number 1 through 10");
+		int CorrectNumber=Integer.parseInt(userInput.nextLine());
+		
+		System.out.println("Guess a number between 1 and 10");
+		int NumberGuess = Integer.parseInt(userInput.nextLine());
+
+		if (CorrectNumber == NumberGuess) {
+			System.out.println("That is correct!");
+			 System.exit(0);
+		} else {
+			System.out.println("Sorry! That was wrong! Try Again");
+		}
+	}
+
+}
